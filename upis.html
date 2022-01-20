@@ -4,25 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upis </title>
+    <title>Document</title>
     <script src="studenti.js"></script>
-    <link rel="stylesheet" href="stil.css"> 
 </head>
 <body>
-    <div class="toolbar">
-    <a href="main.html"><h2 >Studenti</h2></a>
-    </div>
+    <a href="main.html"><h2>Studenti</h2></a>
     <br>
     <h3>Upišite određene informacije</h3>
     <div>
-        <input id="ime" placeholder="Unesi ime"><br>
-        <input id="prezime" placeholder="Unesi prezime"><br>
-        <input id="index" placeholder="Unesi indeks"><br>
-        <input id="smjer" placeholder="Unesi smjer"><br>
-    
+        <input id="ime" placeholder="ime">
+        <input id="prezime" placeholder="prezime">
+        <input id="index" placeholder="index">
+        <input id="smjer" placeholder="smjer">
+        <input id="ciklus" placeholder="ciklus">
+        <input id="semestar" placeholder="semestar">
         <br>
         <br>
-        <button onclick="ubaciStudenta(
+        <button onclick="ubacistudentaUStorage(
         document.getElementById('ime').value,
         document.getElementById('prezime').value,
         document.getElementById('index').value,
@@ -30,6 +28,5 @@
         document.getElementById('ciklus').value,
         document.getElementById('semestar').value);">Upiši studenta</button>
     </div>
-
 </body>
 </html>
