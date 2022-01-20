@@ -1,0 +1,12 @@
+body {
+
+    background-color: rgb(204, 183, 183);
+}
+
+.toolbar {
+
+    background-color: rgb(177, 80, 80);
+    color: rgb(77, 38, 38);
+    border-bottom: 5px solid #501313;
+    height: 70px;
+}
